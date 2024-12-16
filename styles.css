@@ -25,6 +25,7 @@ body{
     background-color: var(--blackColor);
     color:white;
 }
+
 .container{
     display: flex;
     justify-content: center;
@@ -35,6 +36,7 @@ body{
     width:auto;
     flex-wrap: wrap;
 }
+
 .user-data{
     height: 22rem;
     width:21rem;
@@ -45,10 +47,13 @@ body{
     flex-direction: column;
     gap:0.6rem;
 }
+
 .user-data > h2{
     margin-bottom: 1rem;
+    margin-left: 45px;
 }
-.input , .generate-qr-code{
+
+.input , .generate-qr-code , .download-qr-code{
     height: 2.7rem;
     width:100%;
     border:none;
@@ -56,33 +61,56 @@ body{
     border-radius: 0.7rem;
     font-size: 0.9rem;
 }
+
 .input{
     padding: 0 1rem 0 0.5rem;
     background-color: #313336;
     color:white;
+    margin-top: 5px;
     /* font-size: 0.95rem; */
 }
+
 .generate-qr-code{
     background-color: var(--blueColor);
     color:white;
     cursor: pointer;
     font-weight: 600;
+    margin-top: 10px;
 }
+
 .generate-qr-code:hover{
     background-color: var(--blueColorHover);
 }
+
+.download-qr-code{
+    background-color: var(--blueColor);
+    color:white;
+    cursor: pointer;
+    font-weight: 600;
+    margin-top: 240px;
+    width:15rem;
+    margin-left: -270px;
+}
+
+.download-qr-code:hover{
+    background-color: var(--blueColorHover);
+}
+
 .qr-canvas{
     background-color: white;
     height: 15rem;
     width:15rem;
     border-radius: 1rem;
     position: relative;
+    margin-top: -110px;
 }
+
 .qr-canvas > h2{
     color:black;
     text-align: center;
     margin: 1rem;
 }
+
 .qr-image{
     display: block;
     margin: auto;
@@ -100,7 +128,6 @@ body{
     border-top-color: white;
     animation: spin 1s infinite;
     display: none;
-    /* background-color: red; */
 }
 
 @keyframes spin {
