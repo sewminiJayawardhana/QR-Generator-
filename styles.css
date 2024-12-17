@@ -84,7 +84,7 @@ body{
 
 .download-qr-code{
     background-color: var(--blueColor);
-    color:white;
+    color:rgb(241, 231, 231);
     cursor: pointer;
     font-weight: 600;
     margin-top: 240px;
