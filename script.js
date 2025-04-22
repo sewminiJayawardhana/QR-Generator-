@@ -31,6 +31,11 @@ document.addEventListener("DOMContentLoaded", function() {
                 link.download = 'qr-code.png'; // Set the default filename
                 link.click(); // Programmatically trigger the download
             };
+            // Clear the input fields
+            user_name.value = '';
+            user_email.value = '';
+            user_phone.value = '';
+
         } else {
             alert('Please enter valid field data!!!');
             loading.style.display = 'none';
