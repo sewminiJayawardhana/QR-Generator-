@@ -9,12 +9,12 @@
 }
 
 :root{
-    --blueColor : #1DA1F2;
-    --blueColorHover : #1A8CD8;
+    --blueColor : #d03a08;
+    --blueColorHover : #781e00;
     --blackColor : #14171A;
-    --darkColor :#202327;
+    --darkColor :#48494a;
     --grayColor: #AAB8C2;
-    --darkTextColor: #4A4C4E;
+    --darkTextColor: #585859;
 }
 
 body{
@@ -22,7 +22,7 @@ body{
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background-color: var(--blackColor);
+    background-color:#14171A;
     color:white;
 }
 
