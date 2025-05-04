@@ -12,7 +12,6 @@
     --blueColor : #d03a08;
     --blueColorHover : #781e00;
     --blackColor : #14171A;
-    --darkColor :#48494a;
     --grayColor: #AAB8C2;
     --darkTextColor: #585859;
 }
@@ -35,6 +34,9 @@ body{
     height: auto;
     width:auto;
     flex-wrap: wrap;
+    border:#585859 1px solid;
+    border-radius: 2rem;
+    padding: 2rem 1rem;
 }
 
 .user-data{
@@ -64,7 +66,7 @@ body{
 
 .input{
     padding: 0 1rem 0 0.5rem;
-    background-color: #313336;
+    background-color: #2b2c2f;
     color:white;
     margin-top: 5px;
     /* font-size: 0.95rem; */
